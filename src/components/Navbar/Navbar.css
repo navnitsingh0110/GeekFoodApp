@@ -39,18 +39,22 @@ nav {
   color: white;
 }
 
-.nav-links {
+.nav-links, .nav-links a{
   cursor: pointer;
   list-style-type: none;
   display: flex;
   text-decoration: none;
   gap: 20px;
   justify-content: space-evenly;
+  color: white;
 }
 
-.nav-links li {
+.nav-links li, .nav-links a {
   transition: color 0.5s ease;
 }
+
+.nav-links a:hover{
+color: rgb(37, 99, 235)}
 
 .nav-links li:hover {
   color: rgb(37, 99, 235);
