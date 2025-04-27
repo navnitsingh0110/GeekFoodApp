@@ -11,7 +11,7 @@ function Navbar() {
                 <ul className="nav-links">
                     <li className='active'><Link to="/">Home</Link></li>
                     <li><Link to="/quotes">Quote</Link></li>
-                    <li>Resturants</li>
+                    <li><Link to="/restaurants">Resturants</Link></li>
                     <li>Foods</li>
                     <li>Contact</li>
                 </ul>

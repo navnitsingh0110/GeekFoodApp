@@ -1,0 +1,117 @@
+/* Restaurants.css */
+
+.restaurant-container {
+    max-width: 1600px;
+    margin: 40px auto;
+    padding: 50px;
+    background-color: #fefefe;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .restaurant-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .restaurant-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+  }
+  
+  .restaurant-search {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .rating-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .rating-filter label {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .rating-filter input {
+    width: 70px;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .restaurant-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+  
+  .restaurant-item {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .restaurant-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .restaurant-name {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #222;
+  }
+  
+  .restaurant-rating {
+    font-size: 1rem;
+    color: #f39c12;
+  }
+  
+  .restaurant-address,
+  .restaurant-location {
+    margin: 4px 0;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .food-link {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .restaurant-food {
+    font-size: 1rem;
+    color: #64c100;
+  }
+  
+  .restaurant-menu-link {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.2s;
+  }
+  
+  .restaurant-menu-link:hover {
+    color: #217dbb;
+  }
+  

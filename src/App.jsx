@@ -5,16 +5,16 @@ import Main from './components/Main/Main'
 import Cards from './components/Cards/Cards'
 import Footer from './components/Footer/Footer'
 import Quotes from './components/Quotes/Quotes'
+import Restaurants from './components/Restaurants/Restaurants'
 import './App.css'
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Navbar /> {/* Now Navbar is outside and only once */}
       <Routes>
         <Route path='/' element={
           <>
-            <Navbar />
             <Hero />
             <Main />
             <Cards />
@@ -22,6 +22,7 @@ function App() {
           </>
         } />
         <Route path='/quotes' element={<Quotes />} />
+        <Route path='/restaurants' element={<Restaurants />} />
       </Routes>
     </Router>
   )
